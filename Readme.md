@@ -27,7 +27,7 @@
 # Login
 ### Login page
 
-    1. Verified users only should allow to login, otherwise Unverified message should be shown to the user.
+### Verified users only will allow to login, otherwise Unverified message should be shown to the user.
 
 # DataTable View
 ### DataTable will view the database record of the users.
