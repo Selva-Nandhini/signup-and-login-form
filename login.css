@@ -1,0 +1,77 @@
+body{
+    background-image:url(./assest/unnamed.png);
+   background-size: cover;
+}
+h1{
+    color:#1d90f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.text-box{
+    display:flex ;
+    background-color: #323645;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+label {
+    display: block;
+    margin-left: 20px;
+    font-size: 15px;
+    color:#6c6565;
+  }
+  .full-input-email{
+    display: inline-block;
+    background-color: #323645;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 35%;
+  }
+  .full-input-pass{
+    display: inline-block;
+    background-color: #323645;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-top: 3%;
+    width: 35%;
+  }
+  .fa-square-envelope{
+    color: #fff;
+  }
+  .fa-eye{
+    color: #fff;
+  }
+  .field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  .send-btn{
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 25px 15px;
+    background-color:#545b69;
+    color: #fff;
+    font-size: large;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+}
+.full-input-pass:hover {
+    border: 2px solid #1d90f4;
+}
+.full-input-email:hover {
+    border: 2px solid #1d90f4;
+}
+.send-btn:hover{
+    background-color: #1d90f4;
+}
